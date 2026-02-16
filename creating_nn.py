@@ -23,7 +23,7 @@ def derivative_sigmoid(x):
 def mse(y, y_hat):
     return np.mean((y-y_hat) ** 2)
 
-def backword_propagation(X,y,output,z2,weight2,a1,z1,weight1,learning_rate):
+def backword_propagation(X,y,output,z2,weight2,a1,z1,weight1,bias1,bias2,learning_rate):
     """
     w_new = w - η * dL/dw
     chain_rule: dL/dw = dL/dy_hat * dy_hat/dz2 * dz2/da1 * da1/dz1 * dz1/dw
@@ -72,8 +72,8 @@ weight1 = np.random.randn(4,4)
 bias1 = np.random.randn(4,1)
 
 #layer2
-weight2 = np.random.randn(3,4)
-bias2 = np.random.randn(3,1)
+weight2 = np.random.randn(1,4)
+bias2 = np.random.randn(1,1)
 
 
 #forward-pass
@@ -82,11 +82,10 @@ a1 = sigmoid(z1)
 z2 = np.dot(weight2, a1) + bias2
 output = sigmoid(z2)
 loss = mse(y, output)
+print("before updating\n",weight1,"\nweight2\n",weight2)
+backword_propagation(X,y,output,z2,weight2, a1,z1,weight1,bias1,bias2,learning_rate=0.1)
+print("after updating\n", weight1,"\nweight2\n",weight2)
 
-print(weight1.shape)
-print(X.shape)
-print(z1.shape)
-print(z2.shape)
 
 print("output:", output)
 print("loss:", loss)

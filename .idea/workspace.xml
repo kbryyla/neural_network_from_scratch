@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4609a845-b52b-49bd-975f-be156353c44e" name="Changes" comment="sigmoid func and loss function added">
+    <list default="true" id="4609a845-b52b-49bd-975f-be156353c44e" name="Changes" comment="backpropagation added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/creating_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/creating_nn.py" afterDir="false" />
     </list>
@@ -106,13 +106,22 @@
       <option name="project" value="LOCAL" />
       <updated>1771104871155</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="backpropagation added">
+      <option name="closed" value="true" />
+      <created>1771191189575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771191189575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="weight initialization, 2-layer task, forward pass" />
     <MESSAGE value="sigmoid func and loss function added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sigmoid func and loss function added" />
+    <MESSAGE value="backpropagation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="backpropagation added" />
   </component>
 </project>
