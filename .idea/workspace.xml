@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4609a845-b52b-49bd-975f-be156353c44e" name="Changes" comment="backpropagation added">
+    <list default="true" id="4609a845-b52b-49bd-975f-be156353c44e" name="Changes" comment="weight update by gradient descent, learning rate">
+      <change afterPath="$PROJECT_DIR$/Iris.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/creating_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/creating_nn.py" afterDir="false" />
     </list>
@@ -58,6 +59,11 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yayla\PycharmProjects\neural_network_from_scratch" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,14 +120,34 @@
       <option name="project" value="LOCAL" />
       <updated>1771191189575</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="weight update by gradient descent, learning rate">
+      <option name="closed" value="true" />
+      <created>1771282048482</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771282048482</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="weight initialization, 2-layer task, forward pass" />
     <MESSAGE value="sigmoid func and loss function added" />
     <MESSAGE value="backpropagation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="backpropagation added" />
+    <MESSAGE value="weight update by gradient descent, learning rate" />
+    <option name="LAST_COMMIT_MESSAGE" value="weight update by gradient descent, learning rate" />
   </component>
 </project>
