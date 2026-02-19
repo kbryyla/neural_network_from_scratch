@@ -116,9 +116,9 @@ Understanding of gradient flow
 
 ***Future Improvements
 
-Replace MSE with Cross-Entropy
-Use Softmax in output layer
-Add ReLU activation
-Implement Mini-batch training
-Add Xavier/He initialization
-Compare with PyTorch implementation
+*Replace MSE with Cross-Entropy
+*Use Softmax in output layer
+*Add ReLU activation
+*Implement Mini-batch training
+*Add Xavier/He initialization
+*Compare with PyTorch implementation
